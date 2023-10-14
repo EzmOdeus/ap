@@ -3,21 +3,19 @@ const app = express()
 app.use(express.json())
 app.get('/', (req, res) => {
     res.json([
-        {
-            id: 1,
-            name:"spiders"
-        }
-        ,
-        {
-            id: 2,
-            name:"seyam"
-        }
-        ,
-        {
-            id: 3,
-            name:"ahmed"
-        }
-    ])
+      {
+        id: 1,
+        name: "https://media.islamway.net/lessons/582/452_Samer_AsmMohemen.mp4",
+      },
+      {
+        id: 2,
+        name: "seyam",
+      },
+      {
+        id: 3,
+        name: "ahmed",
+      },
+    ]);
     
 })
 app.get('/form', (req, res) => {
