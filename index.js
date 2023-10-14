@@ -9,11 +9,11 @@ app.get('/', (req, res) => {
       },
       {
         id: 2,
-        name: "seyam",
+        name: "https://media.islamway.net/lessons/582/506_Samer_Aswd.mp4",
       },
       {
         id: 3,
-        name: "ahmed",
+        name: "seyam",
       },
     ]);
     
